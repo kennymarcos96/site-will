@@ -1,0 +1,169 @@
+/* Estilos geais */
+* {
+    color: #25282E;
+    font-family: sans-serif;}
+
+a, i {
+    transition: .5s;
+    text-decoration: none;
+}
+source {
+    height: 600px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.secondary-color {
+    color: rgb(184, 183, 183);
+}
+
+.center.image {
+    background-size: cover;
+    border-radius: 11px;
+    background-position: center;
+    padding: 12px;
+    margin: 12px;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #25282E;
+    color: #fff;
+    padding: 7px 18px;
+    border-radius: 0;
+}
+
+.bnt:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* header */
+#header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+#header p {
+   margin-bottom: 0; 
+}
+
+#logo-container {
+    width: 100%;
+    justify-content: center;
+}
+#logo{
+    width: 40px;
+    margin-right: 15px;
+}
+/* navbar criar espaçamewnto entre itesn SegurançaTecnologia Clientes
+ Contatos */
+#navbar{
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+#navbar a{
+width: 94px;
+color: #444;
+
+}
+
+#navbar a:hover{
+    color: #C1B696;
+}
+/* Banner principal */
+.main-image {
+    height: 350px;
+    background-image: url('../img/f.jpg') ;
+    margin-bottom: 30px;
+    position: relative;
+    border-radius: 11px;
+
+}
+
+/* .main-image-infor{
+} */
+.main-image-infor{
+    background-color: #fff;
+    padding:25px ;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+/* Gallery */
+
+#img2 {
+    background-image: url('..//img/W/w2.jpg') ;
+}
+#img3 {
+    background-image: url('..//img/W/w3.jpg') ;
+}
+#img4 {
+    background-image: url('..//img/W/w4.jpg') ;
+}
+#img5 {
+    background-image: url('..//img/W/w5.jpg') ;
+}
+#img6 {
+    background-image: url('..//img/W/w6.jpg') ;
+}
+
+/* Gallery-containe */
+
+#gallery-container h1 {
+    text-align: center;
+}
+
+#gallery-container h1,
+#gallery-container .col-md-6,
+#gallery-container .col-12{
+
+    margin-bottom: 50px;
+}
+
+.small-image-container{
+    height: 250px;
+    margin-bottom: 20px;
+
+}
+
+/* Footer */
+
+footer{
+    border-top: 1px solid #ccc;
+    height:250px;
+    padding: 30px;
+}
+
+footer i {
+    font-size: 25px;
+}
+
+#social-icons-container {
+    padding: 25px;
+}
+
+#social-icons-container div {
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    margin: 20px;
+}
+a:hover i {
+   color: #f20f39a8; 
+}
+
